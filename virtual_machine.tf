@@ -13,7 +13,7 @@ resource "azurerm_linux_virtual_machine" "my_linux_vm" {
   size = "Standard_F16s_v2" # <<<<<<<<<< Try changing this to Standard_F16s_v2 to compare the costs
 
   tags = {
-    Environment = "Prod"
+    Environment = "production"
     Service = "web-app"
   }
 
